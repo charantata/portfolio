@@ -1254,6 +1254,8 @@
                                     Automate</span>
                                 <span class="skill-badge"><i class="fa-solid fa-keyboard text-secondary"></i> RPA
                                     Solutions</span>
+                                <span class="skill-badge"><i class="fa-solid fa-brain text-accent"></i> Generative AI &
+                                    LLMs</span>
                             </div>
                         </div>
                     </div>
@@ -1280,6 +1282,8 @@
                                     Microservices</span>
                                 <span class="skill-badge"><i class="fa-solid fa-layer-group text-accent"></i> N-Tier
                                     Architecture</span>
+                                <span class="skill-badge"><i class="fa-solid fa-magnifying-glass text-warning"></i>
+                                    Vector RAG</span>
                             </div>
                         </div>
                     </div>
@@ -1537,6 +1541,65 @@
                                 <span class="tech-pill">RPA</span>
                                 <span class="tech-pill">SQL Server</span>
                                 <span class="tech-pill">REST APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="glass-card project-card">
+                            <div class="project-icon-box"><i class="fa-solid fa-robot"></i></div>
+                            <h3 class="project-title">Intelligent LLM Patient Portal</h3>
+                            <p class="project-desc-block">
+                                Architected and deployed a secure, HIPAA-compliant patient service assistant leveraging
+                                Retrieval-Augmented Generation (RAG) to automate patient inquiries, dynamic scheduling,
+                                and clinical workflow routing.
+                            </p>
+
+                            <div class="project-section-subtitle">Business Impact</div>
+                            <div class="project-details-item"><i class="fa-solid fa-chevron-right text-accent mr-2"></i>
+                                Reduced call center queue latency by 45% via automated routing</div>
+                            <div class="project-details-item"><i class="fa-solid fa-chevron-right text-accent mr-2"></i>
+                                Maintained 98% user satisfaction with zero clinical guidance errors</div>
+
+                            <div class="project-section-subtitle">Challenges Solved</div>
+                            <div class="project-details-item"><i
+                                    class="fa-solid fa-triangle-exclamation text-warning mr-2"></i> Secured patient
+                                PHI/PII using enterprise-grade semantic firewall sanitization gates.</div>
+
+                            <div class="tech-pills-row">
+                                <span class="tech-pill">Azure OpenAI</span>
+                                <span class="tech-pill">LangChain</span>
+                                <span class="tech-pill">Python</span>
+                                <span class="tech-pill">Vector Search</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="glass-card project-card">
+                            <div class="project-icon-box"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <h3 class="project-title">AI-Driven Portal Migration</h3>
+                            <p class="project-desc-block">
+                                Engineered a semantic codebase translation suite that used fine-tuned LLM reasoning and
+                                custom Abstract Syntax Tree (AST) parsing to automate legacy system modernization.
+                            </p>
+
+                            <div class="project-section-subtitle">Business Impact</div>
+                            <div class="project-details-item"><i class="fa-solid fa-chevron-right text-accent mr-2"></i>
+                                Compressed overall migration delivery timeline by 60%</div>
+                            <div class="project-details-item"><i class="fa-solid fa-chevron-right text-accent mr-2"></i>
+                                Saved over 1,200 developer hours in manual MVC-to-Cloud refactoring</div>
+
+                            <div class="project-section-subtitle">Challenges Solved</div>
+                            <div class="project-details-item"><i
+                                    class="fa-solid fa-triangle-exclamation text-warning mr-2"></i> Integrated automated
+                                unit testing dry-runs to eliminate LLM translation hallucinations.</div>
+
+                            <div class="tech-pills-row">
+                                <span class="tech-pill">GPT-4 APIs</span>
+                                <span class="tech-pill">Semantic Kernel</span>
+                                <span class="tech-pill">Azure Functions</span>
+                                <span class="tech-pill">AST Parser</span>
                             </div>
                         </div>
                     </div>
@@ -1875,7 +1938,7 @@
 
                 const datasets = [{
                     label: 'Proficiency Level (%)',
-                    data: [90, 95, 90, 85, 75, 85, 80],
+                    data: [90, 95, 90, 85, 88, 75, 85, 80],
                     backgroundColor: 'rgba(20, 184, 166, 0.2)',
                     borderColor: '#14b8a6',
                     borderWidth: 2,
@@ -1894,7 +1957,7 @@
                 radarChartInstance = new Chart(ctx, {
                     type: 'radar',
                     data: {
-                        labels: ['Azure', '.NET Stack', 'Dell Boomi', 'SQL Server', 'Angular', 'Power Automate', 'Databricks'],
+                        labels: ['Azure', '.NET Stack', 'Dell Boomi', 'SQL Server', 'Generative AI / LLM', 'Angular', 'Power Automate', 'Databricks'],
                         datasets: datasets
                     },
                     options: {
