@@ -8,9 +8,9 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Professional portfolio of Charan Tata, Software Development Manager with 12+ years of experience specializing in Enterprise Architecture, Cloud Transformation (Azure), integrations (Boomi), and high-performance leadership.">
+        content="Professional portfolio of Charan Tata, Software Development Manager with 12+ years of experience specializing in Enterprise Architecture, Cloud Transformation (Azure), Generative AI (LLMs/RAG), integrations (Boomi), and high-performance leadership.">
     <meta name="keywords"
-        content="Charan Tata, Software Development Manager, Tech Lead, Solutions Architect, Azure, Boomi, .NET, C#, SQL Server, Hyderabad IT, Fortrea, LabCorp, Cloud Migration, Enterprise Integrations">
+        content="Charan Tata, Software Development Manager, Tech Lead, Solutions Architect, Azure, Boomi, .NET, C#, SQL Server, Generative AI, LLM, RAG, Hyderabad IT, Fortrea, LabCorp, Cloud Migration, Enterprise Integrations">
     <meta name="author" content="Charan Tata">
 
     <!-- Open Graph Tags (Facebook / LinkedIn) -->
@@ -50,7 +50,7 @@
         "https://www.linkedin.com/in/charan-tata"
       ],
       "knowsAbout": [
-        "Azure", "Boomi", ".NET", "C#", "SQL Server", "Angular", "Power Automate", "Databricks", "Agile", "Scrum", "Microservices", "N-Tier Architecture", "Team Management"
+        "Azure", "Boomi", ".NET", "C#", "SQL Server", "Angular", "Power Automate", "Databricks", "Agile", "Scrum", "Microservices", "N-Tier Architecture", "Team Management", "Generative AI", "Large Language Models", "Retrieval-Augmented Generation (RAG)"
       ]
     }
     </script>
@@ -83,23 +83,24 @@
             --accent-rgb: 20, 184, 166;
 
             /* Dark Mode Defaults */
-            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #020617 100%);
-            --bg-solid: #0f172a;
+            --bg-gradient: linear-gradient(135deg, #070b13 0%, #0c1220 50%, #030712 100%);
+            --bg-solid: #070b13;
             --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --text-muted: #64748b;
-            --card-bg: rgba(30, 41, 59, 0.45);
-            --card-border: rgba(255, 255, 255, 0.06);
-            --card-hover-border: rgba(37, 99, 235, 0.4);
-            --nav-bg: rgba(15, 23, 42, 0.8);
-            --nav-border: rgba(255, 255, 255, 0.05);
-            --glow-color: rgba(37, 99, 235, 0.15);
-            --input-bg: rgba(15, 23, 42, 0.6);
-            --input-border: rgba(255, 255, 255, 0.1);
-            --input-focus-border: #2563eb;
-            --accent-bg-glow: rgba(20, 184, 166, 0.05);
-            --timeline-line: rgba(255, 255, 255, 0.1);
-            --badge-bg: rgba(37, 99, 235, 0.15);
+            --text-secondary: #cbd5e1;
+            --text-muted: #94a3b8;
+            --card-bg: rgba(17, 24, 39, 0.55);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --card-hover-border: rgba(37, 99, 235, 0.5);
+            --nav-bg: rgba(7, 11, 19, 0.8);
+            --nav-border: rgba(255, 255, 255, 0.08);
+            --glow-color: rgba(37, 99, 235, 0.22);
+            --input-bg: rgba(17, 24, 39, 0.7);
+            --input-border: rgba(255, 255, 255, 0.12);
+            --input-focus-border: #3b82f6;
+            --accent-bg-glow: rgba(20, 184, 166, 0.08);
+            --timeline-line: rgba(255, 255, 255, 0.15);
+            --badge-bg: rgba(37, 99, 235, 0.25);
+            --blob-opacity: 0.22;
         }
 
         [data-theme="light"] {
@@ -121,6 +122,7 @@
             --accent-bg-glow: rgba(20, 184, 166, 0.08);
             --timeline-line: rgba(15, 23, 42, 0.1);
             --badge-bg: rgba(37, 99, 235, 0.08);
+            --blob-opacity: 0.1;
         }
 
         /* Smooth CSS Reset & Typography */
@@ -175,7 +177,7 @@
             border-radius: 50%;
             filter: blur(120px);
             z-index: -1;
-            opacity: 0.15;
+            opacity: var(--blob-opacity, 0.15);
             pointer-events: none;
             transition: opacity 0.5s ease;
         }
@@ -256,8 +258,8 @@
         }
 
         .nav-link-custom {
-            color: var(--text-secondary);
-            font-weight: 500;
+            color: var(--text-secondary) !important;
+            font-weight: 600;
             padding: 8px 16px;
             border-radius: 8px;
             transition: all 0.3s ease;
@@ -265,8 +267,8 @@
 
         .nav-link-custom:hover,
         .nav-link-custom.active {
-            color: var(--text-primary);
-            background: var(--badge-bg);
+            color: var(--text-primary) !important;
+            background: var(--badge-bg) !important;
         }
 
         /* Dark/Light Toggle Switch */
@@ -1065,9 +1067,9 @@
                             Software Development Manager at <strong style="color: var(--secondary);">Fortrea</strong>
                         </h2>
                         <p class="text-secondary mb-4 pe-lg-5" style="font-size: 1.05rem; line-height: 1.6;">
-                            Driving enterprise engineering excellence, large-scale cloud transformations, and global
+                            Driving enterprise engineering excellence, large-scale cloud transformations, modern Generative AI/LLM applications, and global
                             team leadership. Over <strong>12+ years of hands-on leadership</strong> building
-                            high-performance solutions in Healthcare IT, SaaS, and cloud ecosystems.
+                            high-performance, intelligent solutions in Healthcare IT, SaaS, and cloud ecosystems.
                         </p>
                         <div class="d-flex flex-wrap gap-3">
                             <a href="#contact" class="btn-premium">
@@ -1110,7 +1112,7 @@
                         <p class="text-secondary" style="font-size: 1rem; line-height: 1.6;">
                             I lead multiple engineering teams by fostering cultures of accountability, quality
                             engineering, and continuous learning. With deep technical foundations in Microsoft
-                            architectures, cloud scaling, and modern integrations, I successfully steer projects from
+                            architectures, cloud scaling, modern Generative AI/LLM integration patterns, and advanced integrations, I successfully steer projects from
                             concept to highly optimized live systems.
                         </p>
                         <div class="row mt-4">
@@ -1174,7 +1176,7 @@
                                     <div>
                                         <h4 class="about-feature-title">High Integration</h4>
                                         <p class="about-feature-desc m-0">Connecting hybrid ecosystems using Boomi Hubs,
-                                            APIs, and microservices.</p>
+                                            APIs, microservices, and Generative AI frameworks.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1324,9 +1326,8 @@
                             <h3 class="timeline-title">Software Development Manager</h3>
                             <div class="timeline-org">Fortrea | Hyderabad, India</div>
                             <p class="timeline-desc m-0">
-                                Spearheading enterprise level engineering solutions, driving cloud-first design
-                                strategies, managing cross-functional product squads, and delivering critical
-                                integrations within high-compliance health systems.
+                                Spearheading enterprise-level engineering solutions, driving cloud-first design
+                                strategies, directing intelligent LLM patient portals and AI-driven migration platforms, managing cross-functional squads, and delivering critical integrations within high-compliance health systems.
                             </p>
                         </div>
                     </div>
